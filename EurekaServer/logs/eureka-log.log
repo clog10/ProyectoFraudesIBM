@@ -1457,3 +1457,686 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 2022-03-03 10:43:58,707 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
 2022-03-03 10:44:58,710 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
 2022-03-03 10:45:58,713 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 10:46:58,791 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 75ms
+2022-03-03 10:47:58,794 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 10:48:58,797 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 10:49:58,964 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 164ms
+2022-03-03 10:50:58,968 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 10:51:59,093 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 122ms
+2022-03-03 10:52:59,128 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 32ms
+2022-03-03 10:53:56,620 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 11
+2022-03-03 10:53:59,131 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 10:54:59,134 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 10:55:59,202 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 65ms
+2022-03-03 10:56:59,281 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 76ms
+2022-03-03 10:57:59,357 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 73ms
+2022-03-03 10:58:59,362 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-03 10:59:59,373 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 10ms
+2022-03-03 11:00:59,375 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:01:59,376 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:02:59,378 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 11:03:59,380 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:04:59,382 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:05:59,383 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:06:59,394 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
+2022-03-03 11:07:59,396 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:08:56,644 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 11
+2022-03-03 11:08:59,397 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:09:59,399 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:10:59,400 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:11:59,401 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:12:59,403 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:13:59,404 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:14:59,405 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:15:59,407 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:16:59,599 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 191ms
+2022-03-03 11:17:59,600 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:18:59,882 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 280ms
+2022-03-03 11:19:59,962 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 79ms
+2022-03-03 11:21:00,001 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 37ms
+2022-03-03 11:22:00,016 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 13ms
+2022-03-03 11:23:00,029 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 11ms
+2022-03-03 11:23:56,662 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 11
+2022-03-03 11:24:00,034 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-03 11:25:00,037 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 11:26:00,065 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 28ms
+2022-03-03 11:27:00,068 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 11:28:00,069 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:29:00,100 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 29ms
+2022-03-03 11:30:00,139 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 38ms
+2022-03-03 11:31:00,186 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 45ms
+2022-03-03 11:32:00,292 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 104ms
+2022-03-03 11:33:00,314 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 21ms
+2022-03-03 11:34:00,315 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:35:00,316 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:36:00,317 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:37:00,318 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:38:00,318 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:38:56,675 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 11
+2022-03-03 11:39:00,319 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:40:00,320 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:41:00,324 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-03 11:42:00,325 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:43:00,359 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 34ms
+2022-03-03 11:43:03,946 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:ee1848e8193a2953649eb68e9a6c9c01 with status DOWN (replication=false)
+2022-03-03 11:43:04,038 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:902cb5133ba96c16f535b36de600ed31 with status DOWN (replication=false)
+2022-03-03 11:43:04,435 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-FRAUDES/api-fraudes:6a630119975209fcde31f38a51989639 with status DOWN (replication=false)
+2022-03-03 11:43:04,667 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:ee1848e8193a2953649eb68e9a6c9c01 with status DOWN (replication=true)
+2022-03-03 11:43:04,668 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:902cb5133ba96c16f535b36de600ed31 with status DOWN (replication=true)
+2022-03-03 11:43:04,668 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:6a630119975209fcde31f38a51989639 with status DOWN (replication=true)
+2022-03-03 11:43:04,867 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-FRAUDES/api-fraudes:ced2e05e66f287ba7e6953f28954a6ae with status DOWN (replication=false)
+2022-03-03 11:43:05,467 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:ced2e05e66f287ba7e6953f28954a6ae with status DOWN (replication=true)
+2022-03-03 11:43:08,375 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance API-FRAUDES/api-fraudes:ee1848e8193a2953649eb68e9a6c9c01 (replication=false)
+2022-03-03 11:43:08,435 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:ee1848e8193a2953649eb68e9a6c9c01
+2022-03-03 11:43:08,436 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-FRAUDES - api-fraudes:ee1848e8193a2953649eb68e9a6c9c01
+2022-03-03 11:43:08,439 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-17] The replication of task API-FRAUDES/api-fraudes:ee1848e8193a2953649eb68e9a6c9c01:Cancel@localhost failed with response code 404
+2022-03-03 11:43:08,440 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-17] API-FRAUDES/api-fraudes:ee1848e8193a2953649eb68e9a6c9c01:Cancel@localhost: missing entry.
+2022-03-03 11:43:08,976 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-FRAUDES/api-fraudes:902cb5133ba96c16f535b36de600ed31 (replication=false)
+2022-03-03 11:43:09,139 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-FRAUDES/api-fraudes:6a630119975209fcde31f38a51989639 (replication=false)
+2022-03-03 11:43:09,783 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-FRAUDES/api-fraudes:ced2e05e66f287ba7e6953f28954a6ae (replication=false)
+2022-03-03 11:43:09,878 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:902cb5133ba96c16f535b36de600ed31
+2022-03-03 11:43:09,878 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Cancel): API-FRAUDES - api-fraudes:902cb5133ba96c16f535b36de600ed31
+2022-03-03 11:43:09,878 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:6a630119975209fcde31f38a51989639
+2022-03-03 11:43:09,879 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Cancel): API-FRAUDES - api-fraudes:6a630119975209fcde31f38a51989639
+2022-03-03 11:43:09,880 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:ced2e05e66f287ba7e6953f28954a6ae
+2022-03-03 11:43:09,880 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Cancel): API-FRAUDES - api-fraudes:ced2e05e66f287ba7e6953f28954a6ae
+2022-03-03 11:43:09,881 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-1] The replication of task API-FRAUDES/api-fraudes:902cb5133ba96c16f535b36de600ed31:Cancel@localhost failed with response code 404
+2022-03-03 11:43:09,882 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-1] API-FRAUDES/api-fraudes:902cb5133ba96c16f535b36de600ed31:Cancel@localhost: missing entry.
+2022-03-03 11:43:09,882 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-1] The replication of task API-FRAUDES/api-fraudes:6a630119975209fcde31f38a51989639:Cancel@localhost failed with response code 404
+2022-03-03 11:43:09,882 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-1] API-FRAUDES/api-fraudes:6a630119975209fcde31f38a51989639:Cancel@localhost: missing entry.
+2022-03-03 11:43:09,882 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-1] The replication of task API-FRAUDES/api-fraudes:ced2e05e66f287ba7e6953f28954a6ae:Cancel@localhost failed with response code 404
+2022-03-03 11:43:09,882 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-1] API-FRAUDES/api-fraudes:ced2e05e66f287ba7e6953f28954a6ae:Cancel@localhost: missing entry.
+2022-03-03 11:43:41,166 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-FRAUDES/api-fraudes:74b4d664ea5a1aaac455603e78a661ba with status UP (replication=false)
+2022-03-03 11:43:41,827 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-FRAUDES/api-fraudes:74b4d664ea5a1aaac455603e78a661ba with status UP (replication=true)
+2022-03-03 11:43:42,716 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:46758c56d4ff714cbdcd4f41071516af with status UP (replication=false)
+2022-03-03 11:43:42,788 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-FRAUDES/api-fraudes:70f19c00ded5f0c1e3c87e9ce7999ce3 with status UP (replication=false)
+2022-03-03 11:43:43,272 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:46758c56d4ff714cbdcd4f41071516af with status UP (replication=true)
+2022-03-03 11:43:43,273 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:70f19c00ded5f0c1e3c87e9ce7999ce3 with status UP (replication=true)
+2022-03-03 11:43:44,781 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:74b4d664ea5a1aaac455603e78a661ba with status DOWN (replication=false)
+2022-03-03 11:43:45,293 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-FRAUDES/api-fraudes:70f19c00ded5f0c1e3c87e9ce7999ce3 with status DOWN (replication=false)
+2022-03-03 11:43:45,444 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-FRAUDES/api-fraudes:46758c56d4ff714cbdcd4f41071516af with status DOWN (replication=false)
+2022-03-03 11:43:45,476 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-FRAUDES/api-fraudes:74b4d664ea5a1aaac455603e78a661ba with status DOWN (replication=true)
+2022-03-03 11:43:45,477 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-FRAUDES/api-fraudes:70f19c00ded5f0c1e3c87e9ce7999ce3 with status DOWN (replication=true)
+2022-03-03 11:43:45,477 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-FRAUDES/api-fraudes:46758c56d4ff714cbdcd4f41071516af with status DOWN (replication=true)
+2022-03-03 11:43:47,795 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-FRAUDES/api-fraudes:c6806dc307f21196bda94909a0c5ff8e with status UP (replication=false)
+2022-03-03 11:43:48,251 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-FRAUDES/api-fraudes:74b4d664ea5a1aaac455603e78a661ba (replication=false)
+2022-03-03 11:43:48,296 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:c6806dc307f21196bda94909a0c5ff8e with status DOWN (replication=false)
+2022-03-03 11:43:49,611 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance API-FRAUDES/api-fraudes:70f19c00ded5f0c1e3c87e9ce7999ce3 (replication=false)
+2022-03-03 11:43:49,619 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance API-FRAUDES/api-fraudes:46758c56d4ff714cbdcd4f41071516af (replication=false)
+2022-03-03 11:43:49,660 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-FRAUDES/api-fraudes:c6806dc307f21196bda94909a0c5ff8e with status DOWN (replication=true)
+2022-03-03 11:43:49,661 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:74b4d664ea5a1aaac455603e78a661ba
+2022-03-03 11:43:49,661 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-5] Not Found (Cancel): API-FRAUDES - api-fraudes:74b4d664ea5a1aaac455603e78a661ba
+2022-03-03 11:43:49,664 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-11] The replication of task API-FRAUDES/api-fraudes:74b4d664ea5a1aaac455603e78a661ba:Cancel@localhost failed with response code 404
+2022-03-03 11:43:49,664 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-11] API-FRAUDES/api-fraudes:74b4d664ea5a1aaac455603e78a661ba:Cancel@localhost: missing entry.
+2022-03-03 11:43:50,169 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:70f19c00ded5f0c1e3c87e9ce7999ce3
+2022-03-03 11:43:50,169 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-FRAUDES - api-fraudes:70f19c00ded5f0c1e3c87e9ce7999ce3
+2022-03-03 11:43:50,170 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:46758c56d4ff714cbdcd4f41071516af
+2022-03-03 11:43:50,175 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-FRAUDES - api-fraudes:46758c56d4ff714cbdcd4f41071516af
+2022-03-03 11:43:50,178 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-11] The replication of task API-FRAUDES/api-fraudes:70f19c00ded5f0c1e3c87e9ce7999ce3:Cancel@localhost failed with response code 404
+2022-03-03 11:43:50,178 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-11] API-FRAUDES/api-fraudes:70f19c00ded5f0c1e3c87e9ce7999ce3:Cancel@localhost: missing entry.
+2022-03-03 11:43:50,179 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-11] The replication of task API-FRAUDES/api-fraudes:46758c56d4ff714cbdcd4f41071516af:Cancel@localhost failed with response code 404
+2022-03-03 11:43:50,181 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-11] API-FRAUDES/api-fraudes:46758c56d4ff714cbdcd4f41071516af:Cancel@localhost: missing entry.
+2022-03-03 11:43:52,898 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance API-FRAUDES/api-fraudes:c6806dc307f21196bda94909a0c5ff8e (replication=false)
+2022-03-03 11:43:53,431 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:c6806dc307f21196bda94909a0c5ff8e
+2022-03-03 11:43:53,433 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-2] Not Found (Cancel): API-FRAUDES - api-fraudes:c6806dc307f21196bda94909a0c5ff8e
+2022-03-03 11:43:53,433 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-11] The replication of task API-FRAUDES/api-fraudes:c6806dc307f21196bda94909a0c5ff8e:Cancel@localhost failed with response code 404
+2022-03-03 11:43:53,434 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-11] API-FRAUDES/api-fraudes:c6806dc307f21196bda94909a0c5ff8e:Cancel@localhost: missing entry.
+2022-03-03 11:44:00,511 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 150ms
+2022-03-03 11:44:24,630 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-FRAUDES/api-fraudes:c34120e24b338114959056890c6d69b6 with status UP (replication=false)
+2022-03-03 11:44:24,742 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:868f8ac64a508d59f078056a98bbb83a with status UP (replication=false)
+2022-03-03 11:44:24,899 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:984aa7d96ed2d70ed5eb17d6a59ea4d5 with status UP (replication=false)
+2022-03-03 11:44:25,163 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-FRAUDES/api-fraudes:c34120e24b338114959056890c6d69b6 with status UP (replication=true)
+2022-03-03 11:44:25,164 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-FRAUDES/api-fraudes:868f8ac64a508d59f078056a98bbb83a with status UP (replication=true)
+2022-03-03 11:44:25,166 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-FRAUDES/api-fraudes:984aa7d96ed2d70ed5eb17d6a59ea4d5 with status UP (replication=true)
+2022-03-03 11:44:25,274 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:fd18567ed39219d8c4e7ea2e47e61168 with status UP (replication=false)
+2022-03-03 11:44:25,785 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-FRAUDES/api-fraudes:fd18567ed39219d8c4e7ea2e47e61168 with status UP (replication=true)
+2022-03-03 11:45:00,584 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 72ms
+2022-03-03 11:45:19,409 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=false)
+2022-03-03 11:45:20,168 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 11:45:23,331 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 (replication=false)
+2022-03-03 11:45:23,807 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: lease doesn't exist, registering resource: API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 11:45:23,814 WARN com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Renew): API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 11:45:23,817 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: cancel failed because Lease is not registered for: API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 11:45:23,818 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Cancel): API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 11:45:23,820 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-6] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Heartbeat@localhost failed with response code 404
+2022-03-03 11:45:23,820 WARN com.netflix.eureka.cluster.PeerEurekaNode$3 [TaskBatchingWorker-target_localhost-6] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Heartbeat@localhost: missing entry.
+2022-03-03 11:45:23,823 WARN com.netflix.eureka.cluster.PeerEurekaNode$3 [TaskBatchingWorker-target_localhost-6] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Heartbeat@localhost: cannot find instance id DESKTOP-E4B00NC:api-direcciones:8002 and hence replicating the instance with status DOWN
+2022-03-03 11:45:23,823 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-6] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost failed with response code 404
+2022-03-03 11:45:23,824 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-6] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost: missing entry.
+2022-03-03 11:45:24,396 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 11:45:46,595 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance UNKNOWN/DESKTOP-E4B00NC with status UP (replication=false)
+2022-03-03 11:45:47,136 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance UNKNOWN/DESKTOP-E4B00NC with status UP (replication=true)
+2022-03-03 11:45:47,666 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance UNKNOWN/DESKTOP-E4B00NC with status DOWN (replication=false)
+2022-03-03 11:45:48,220 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance UNKNOWN/DESKTOP-E4B00NC with status DOWN (replication=true)
+2022-03-03 11:45:50,723 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance UNKNOWN/DESKTOP-E4B00NC (replication=false)
+2022-03-03 11:45:51,243 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: UNKNOWN/DESKTOP-E4B00NC
+2022-03-03 11:45:51,244 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): UNKNOWN - DESKTOP-E4B00NC
+2022-03-03 11:45:51,245 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-17] The replication of task UNKNOWN/DESKTOP-E4B00NC:Cancel@localhost failed with response code 404
+2022-03-03 11:45:51,245 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-17] UNKNOWN/DESKTOP-E4B00NC:Cancel@localhost: missing entry.
+2022-03-03 11:45:57,835 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 11:45:58,343 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 11:46:00,584 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:47:00,837 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 252ms
+2022-03-03 11:47:01,107 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:fd18567ed39219d8c4e7ea2e47e61168 with status DOWN (replication=false)
+2022-03-03 11:47:01,358 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:c34120e24b338114959056890c6d69b6 with status DOWN (replication=false)
+2022-03-03 11:47:01,369 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-FRAUDES/api-fraudes:868f8ac64a508d59f078056a98bbb83a with status DOWN (replication=false)
+2022-03-03 11:47:01,435 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:984aa7d96ed2d70ed5eb17d6a59ea4d5 with status DOWN (replication=false)
+2022-03-03 11:47:01,673 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:fd18567ed39219d8c4e7ea2e47e61168 with status DOWN (replication=true)
+2022-03-03 11:47:01,674 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:c34120e24b338114959056890c6d69b6 with status DOWN (replication=true)
+2022-03-03 11:47:01,674 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:868f8ac64a508d59f078056a98bbb83a with status DOWN (replication=true)
+2022-03-03 11:47:01,675 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:984aa7d96ed2d70ed5eb17d6a59ea4d5 with status DOWN (replication=true)
+2022-03-03 11:47:04,543 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance API-FRAUDES/api-fraudes:fd18567ed39219d8c4e7ea2e47e61168 (replication=false)
+2022-03-03 11:47:05,053 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:fd18567ed39219d8c4e7ea2e47e61168
+2022-03-03 11:47:05,053 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-2] Not Found (Cancel): API-FRAUDES - api-fraudes:fd18567ed39219d8c4e7ea2e47e61168
+2022-03-03 11:47:05,054 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-17] The replication of task API-FRAUDES/api-fraudes:fd18567ed39219d8c4e7ea2e47e61168:Cancel@localhost failed with response code 404
+2022-03-03 11:47:05,054 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-17] API-FRAUDES/api-fraudes:fd18567ed39219d8c4e7ea2e47e61168:Cancel@localhost: missing entry.
+2022-03-03 11:47:05,271 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Cancelled instance API-FRAUDES/api-fraudes:c34120e24b338114959056890c6d69b6 (replication=false)
+2022-03-03 11:47:05,272 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-FRAUDES/api-fraudes:868f8ac64a508d59f078056a98bbb83a (replication=false)
+2022-03-03 11:47:05,485 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-FRAUDES/api-fraudes:984aa7d96ed2d70ed5eb17d6a59ea4d5 (replication=false)
+2022-03-03 11:47:05,802 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:c34120e24b338114959056890c6d69b6
+2022-03-03 11:47:05,804 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-FRAUDES - api-fraudes:c34120e24b338114959056890c6d69b6
+2022-03-03 11:47:05,804 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:868f8ac64a508d59f078056a98bbb83a
+2022-03-03 11:47:05,807 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-FRAUDES - api-fraudes:868f8ac64a508d59f078056a98bbb83a
+2022-03-03 11:47:05,808 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:984aa7d96ed2d70ed5eb17d6a59ea4d5
+2022-03-03 11:47:05,809 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-FRAUDES - api-fraudes:984aa7d96ed2d70ed5eb17d6a59ea4d5
+2022-03-03 11:47:05,810 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-10] The replication of task API-FRAUDES/api-fraudes:c34120e24b338114959056890c6d69b6:Cancel@localhost failed with response code 404
+2022-03-03 11:47:05,826 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-10] API-FRAUDES/api-fraudes:c34120e24b338114959056890c6d69b6:Cancel@localhost: missing entry.
+2022-03-03 11:47:05,828 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-10] The replication of task API-FRAUDES/api-fraudes:868f8ac64a508d59f078056a98bbb83a:Cancel@localhost failed with response code 404
+2022-03-03 11:47:05,828 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-10] API-FRAUDES/api-fraudes:868f8ac64a508d59f078056a98bbb83a:Cancel@localhost: missing entry.
+2022-03-03 11:47:05,828 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-10] The replication of task API-FRAUDES/api-fraudes:984aa7d96ed2d70ed5eb17d6a59ea4d5:Cancel@localhost failed with response code 404
+2022-03-03 11:47:05,828 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-10] API-FRAUDES/api-fraudes:984aa7d96ed2d70ed5eb17d6a59ea4d5:Cancel@localhost: missing entry.
+2022-03-03 11:48:00,838 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:49:00,838 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:50:00,910 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 70ms
+2022-03-03 11:51:04,326 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3416ms
+2022-03-03 11:52:04,827 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 499ms
+2022-03-03 11:53:04,833 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-03 11:53:56,683 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 5
+2022-03-03 11:54:04,834 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:55:04,911 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 75ms
+2022-03-03 11:56:04,912 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:57:04,913 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:58:04,913 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 11:59:04,924 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
+2022-03-03 12:00:04,924 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:01:04,925 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:02:04,926 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:03:04,927 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:04:04,929 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 12:05:04,931 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 12:06:04,936 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-03 12:07:04,936 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:08:04,936 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:08:41,122 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:8e9e62e7d2fba2babb6b8fd12dc6d68a with status UP (replication=false)
+2022-03-03 12:08:41,360 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:8e9e62e7d2fba2babb6b8fd12dc6d68a with status UP (replication=true)
+2022-03-03 12:08:56,690 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
+2022-03-03 12:09:04,937 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:10:04,937 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:10:36,925 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:8e9e62e7d2fba2babb6b8fd12dc6d68a with status DOWN (replication=false)
+2022-03-03 12:10:37,434 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:8e9e62e7d2fba2babb6b8fd12dc6d68a with status DOWN (replication=true)
+2022-03-03 12:10:40,232 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-FRAUDES/api-fraudes:8e9e62e7d2fba2babb6b8fd12dc6d68a (replication=false)
+2022-03-03 12:10:40,738 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:8e9e62e7d2fba2babb6b8fd12dc6d68a
+2022-03-03 12:10:40,739 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-FRAUDES - api-fraudes:8e9e62e7d2fba2babb6b8fd12dc6d68a
+2022-03-03 12:10:40,740 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-3] The replication of task API-FRAUDES/api-fraudes:8e9e62e7d2fba2babb6b8fd12dc6d68a:Cancel@localhost failed with response code 404
+2022-03-03 12:10:40,741 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-3] API-FRAUDES/api-fraudes:8e9e62e7d2fba2babb6b8fd12dc6d68a:Cancel@localhost: missing entry.
+2022-03-03 12:10:44,566 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:c403e667277ad36dfc01ad30cad9b0bb with status UP (replication=false)
+2022-03-03 12:10:45,070 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:c403e667277ad36dfc01ad30cad9b0bb with status UP (replication=true)
+2022-03-03 12:11:04,938 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:12:04,938 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:13:04,939 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:14:04,954 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 15ms
+2022-03-03 12:15:04,956 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:16:04,956 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:16:34,761 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=false)
+2022-03-03 12:16:35,269 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 12:16:37,873 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 (replication=false)
+2022-03-03 12:16:38,388 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 12:16:38,389 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 12:16:38,390 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-4] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost failed with response code 404
+2022-03-03 12:16:38,390 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-4] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost: missing entry.
+2022-03-03 12:16:47,940 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 12:16:48,455 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 12:17:04,963 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-03-03 12:17:16,238 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=false)
+2022-03-03 12:17:16,747 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 12:17:19,291 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 (replication=false)
+2022-03-03 12:17:19,805 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: cancel failed because Lease is not registered for: API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 12:17:19,806 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-2] Not Found (Cancel): API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 12:17:19,808 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-4] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost failed with response code 404
+2022-03-03 12:17:19,808 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-4] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost: missing entry.
+2022-03-03 12:17:24,992 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 12:17:25,514 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 12:18:04,964 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:18:06,124 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=false)
+2022-03-03 12:18:06,640 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=true)
+2022-03-03 12:18:11,453 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 (replication=false)
+2022-03-03 12:18:11,969 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 12:18:11,970 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-GATEWAY-SERVER - DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 12:18:11,972 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-6] The replication of task API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost failed with response code 404
+2022-03-03 12:18:11,973 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-6] API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost: missing entry.
+2022-03-03 12:18:38,094 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=false)
+2022-03-03 12:18:38,606 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=true)
+2022-03-03 12:19:04,964 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:20:04,964 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:21:04,966 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 12:21:39,787 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=false)
+2022-03-03 12:21:40,291 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 12:21:42,857 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 (replication=false)
+2022-03-03 12:21:43,372 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 12:21:43,373 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 12:21:43,374 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-11] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost failed with response code 404
+2022-03-03 12:21:43,375 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-11] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost: missing entry.
+2022-03-03 12:22:04,966 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:23:04,970 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-03 12:23:37,692 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 12:23:38,305 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 12:23:56,694 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
+2022-03-03 12:24:04,972 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:24:09,622 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=false)
+2022-03-03 12:24:10,127 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=true)
+2022-03-03 12:24:14,730 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 (replication=false)
+2022-03-03 12:24:15,235 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 12:24:15,237 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-2] Not Found (Cancel): API-GATEWAY-SERVER - DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 12:24:15,238 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-1] The replication of task API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost failed with response code 404
+2022-03-03 12:24:15,238 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-1] API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost: missing entry.
+2022-03-03 12:24:37,111 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=false)
+2022-03-03 12:24:37,621 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=true)
+2022-03-03 12:25:04,973 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 12:26:04,975 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 12:26:07,618 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=false)
+2022-03-03 12:26:08,026 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 12:26:08,040 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-6] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Heartbeat@localhost failed with response code 409
+2022-03-03 12:26:08,041 WARN com.netflix.eureka.cluster.PeerEurekaNode [TaskBatchingWorker-target_localhost-6] Peer wants us to take the instance information from it, since the timestamp differs,Id : DESKTOP-E4B00NC:api-direcciones:8002 My Timestamp : 1646331817393, Peer's timestamp: 1646331967613
+2022-03-03 12:26:08,041 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [TaskBatchingWorker-target_localhost-6] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 12:26:11,047 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 (replication=false)
+2022-03-03 12:26:11,558 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: cancel failed because Lease is not registered for: API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 12:26:11,559 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-2] Not Found (Cancel): API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 12:26:11,560 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-12] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost failed with response code 404
+2022-03-03 12:26:11,561 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-12] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost: missing entry.
+2022-03-03 12:26:19,202 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 12:26:19,808 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 12:27:04,975 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:28:04,979 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-03-03 12:29:04,980 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:30:04,981 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 12:30:14,985 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=false)
+2022-03-03 12:30:15,493 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=true)
+2022-03-03 12:30:20,112 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 (replication=false)
+2022-03-03 12:30:20,678 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 12:30:20,680 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-GATEWAY-SERVER - DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 12:30:20,687 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-18] The replication of task API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost failed with response code 404
+2022-03-03 12:30:20,687 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-18] API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost: missing entry.
+2022-03-03 12:31:04,982 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 12:31:28,587 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-FRAUDES/api-fraudes:c403e667277ad36dfc01ad30cad9b0bb with status DOWN (replication=false)
+2022-03-03 12:31:29,105 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-FRAUDES/api-fraudes:c403e667277ad36dfc01ad30cad9b0bb with status DOWN (replication=true)
+2022-03-03 12:31:30,699 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=false)
+2022-03-03 12:31:31,211 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 12:31:31,886 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-FRAUDES/api-fraudes:c403e667277ad36dfc01ad30cad9b0bb (replication=false)
+2022-03-03 12:31:32,407 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:c403e667277ad36dfc01ad30cad9b0bb
+2022-03-03 12:31:32,409 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Cancel): API-FRAUDES - api-fraudes:c403e667277ad36dfc01ad30cad9b0bb
+2022-03-03 12:31:32,410 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-19] The replication of task API-FRAUDES/api-fraudes:c403e667277ad36dfc01ad30cad9b0bb:Cancel@localhost failed with response code 404
+2022-03-03 12:31:32,411 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-19] API-FRAUDES/api-fraudes:c403e667277ad36dfc01ad30cad9b0bb:Cancel@localhost: missing entry.
+2022-03-03 12:31:33,131 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(173)-127.0.0.1] Application shutdown requested.
+2022-03-03 12:31:33,138 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(173)-127.0.0.1] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-03-03 12:31:33,249 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(173)-127.0.0.1] Shutting down Eureka Server..
+2022-03-03 12:31:33,354 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(173)-127.0.0.1] Shutting down ...
+2022-03-03 12:31:33,369 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(173)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-03 12:31:33,388 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(173)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-03 12:31:33,402 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(173)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-03 12:31:33,414 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(173)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-03 12:31:33,662 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(173)-127.0.0.1] Shut down
+2022-03-03 12:31:33,662 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(173)-127.0.0.1] Eureka Service is now shutdown...
+2022-03-03 12:31:33,665 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(173)-127.0.0.1] Shutting down ...
+2022-03-03 12:31:33,808 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(173)-127.0.0.1] Shut down
+2022-03-03 12:31:33,918 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(173)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-03-03 12:31:34,073 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(173)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-03-03 13:47:33,704 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 17.0.1 on DESKTOP-E4B00NC with PID 9488 (C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\EurekaServer\target\classes started by carlo in C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\EurekaServer)
+2022-03-03 13:47:37,570 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 13:47:38,345 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 13:47:38,346 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 13:48:02,656 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=539d83ae-1550-3cfe-ba02-1587b266c449
+2022-03-03 13:48:16,178 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-03-03 13:48:16,281 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-03-03 13:48:16,307 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-03 13:48:16,309 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-03 13:48:18,338 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-03 13:48:18,341 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 39987 ms
+2022-03-03 13:48:44,774 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-03-03 13:48:45,768 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-03 13:48:45,777 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-03 13:48:48,361 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-03 13:48:48,365 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-03 13:49:10,131 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-03 13:49:10,988 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-03-03 13:49:12,054 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 13:49:12,215 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 13:49:12,499 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 13:49:12,513 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-03-03 13:49:12,688 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646336952679 with initial instances count: 0
+2022-03-03 13:49:13,522 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-03-03 13:49:13,528 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-03-03 13:49:14,498 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-03 13:49:14,500 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-03 13:49:14,500 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-03 13:49:14,501 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-03 13:49:15,901 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-03-03 13:49:16,078 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-03-03 13:49:16,098 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-03-03 13:49:16,615 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-03 13:49:17,725 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-03-03 13:49:17,733 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-03-03 13:49:17,816 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Setting the eureka configuration..
+2022-03-03 13:49:17,849 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] isAws returned false
+2022-03-03 13:49:17,850 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-15] Initialized server context
+2022-03-03 13:49:17,851 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Got 1 instances from neighboring DS node
+2022-03-03 13:49:17,852 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Renew threshold is: 1
+2022-03-03 13:49:17,853 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Changing status to UP
+2022-03-03 13:49:18,037 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-03-03 13:49:18,041 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-03-03 13:49:18,252 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-15] Started Eureka Server
+2022-03-03 13:49:19,312 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 114.303 seconds (JVM running for 119.498)
+2022-03-03 13:49:31,105 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-03 13:49:31,106 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-03-03 13:49:31,111 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 5 ms
+2022-03-03 13:49:32,557 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:9e90562e4f220f33745c419c1464d2db with status UP (replication=false)
+2022-03-03 13:49:32,564 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 13:49:33,881 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-FRAUDES/api-fraudes:9e90562e4f220f33745c419c1464d2db with status UP (replication=true)
+2022-03-03 13:49:33,886 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 13:50:17,857 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 13:51:17,871 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 14ms
+2022-03-03 13:52:00,117 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=false)
+2022-03-03 13:52:00,716 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=true)
+2022-03-03 13:52:17,871 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 13:53:17,871 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 13:54:17,872 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 13:55:17,872 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 13:56:17,893 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 21ms
+2022-03-03 13:57:17,991 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 97ms
+2022-03-03 13:58:17,992 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 13:59:17,993 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 14:00:17,994 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 14:01:17,994 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:02:17,994 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:03:17,997 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-03 14:04:16,077 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
+2022-03-03 14:04:17,998 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:04:44,951 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(29)-127.0.0.1] Application shutdown requested.
+2022-03-03 14:04:44,955 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(29)-127.0.0.1] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-03-03 14:04:45,024 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(29)-127.0.0.1] Shutting down Eureka Server..
+2022-03-03 14:04:45,193 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(29)-127.0.0.1] Shutting down ...
+2022-03-03 14:04:45,237 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(29)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-03 14:04:45,275 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(29)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-03 14:04:45,298 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(29)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-03-03 14:04:45,310 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(29)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-03-03 14:04:45,636 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(29)-127.0.0.1] Shut down
+2022-03-03 14:04:45,637 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(29)-127.0.0.1] Eureka Service is now shutdown...
+2022-03-03 14:04:45,638 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(29)-127.0.0.1] Shutting down ...
+2022-03-03 14:04:45,822 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(29)-127.0.0.1] Shut down
+2022-03-03 14:04:45,933 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(29)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-03-03 14:04:45,956 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(29)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-03-03 14:13:16,250 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 17.0.1 on DESKTOP-E4B00NC with PID 16872 (C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\EurekaServer\target\classes started by carlo in C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\EurekaServer)
+2022-03-03 14:13:16,283 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 14:13:16,820 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 14:13:16,858 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 14:13:26,851 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=bfc8d610-8f16-37f6-ac6f-89c584aa919b
+2022-03-03 14:13:29,983 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-03-03 14:13:30,013 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-03-03 14:13:30,019 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-03 14:13:30,021 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-03 14:13:31,347 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-03 14:13:31,440 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 14536 ms
+2022-03-03 14:13:49,110 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-03-03 14:13:50,003 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-03 14:13:50,012 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-03 14:13:51,380 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-03 14:13:51,382 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-03 14:14:18,149 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-03 14:14:19,605 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-03-03 14:14:23,162 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 14:14:23,424 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 14:14:23,769 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 14:14:23,770 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-03-03 14:14:23,869 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646338463866 with initial instances count: 0
+2022-03-03 14:14:24,372 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-03-03 14:14:24,380 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-03-03 14:14:25,557 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-03-03 14:14:25,558 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-03-03 14:14:25,559 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-03-03 14:14:25,560 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-03-03 14:14:27,227 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-03-03 14:14:27,471 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-03-03 14:14:27,505 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-03-03 14:14:28,081 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-03 14:14:28,810 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-03-03 14:14:28,818 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-03-03 14:14:28,856 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-16] Setting the eureka configuration..
+2022-03-03 14:14:29,073 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-16] isAws returned false
+2022-03-03 14:14:29,088 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-16] Initialized server context
+2022-03-03 14:14:29,089 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Got 1 instances from neighboring DS node
+2022-03-03 14:14:29,089 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Renew threshold is: 1
+2022-03-03 14:14:29,090 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Changing status to UP
+2022-03-03 14:14:29,172 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-03-03 14:14:29,175 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-03-03 14:14:29,500 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-16] Started Eureka Server
+2022-03-03 14:14:30,726 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 80.633 seconds (JVM running for 88.155)
+2022-03-03 14:14:53,087 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-03 14:14:53,088 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-03-03 14:14:53,095 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 6 ms
+2022-03-03 14:14:54,640 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-FRAUDES/api-fraudes:dab0bb28180b48cb025216f5dac46055 with status UP (replication=false)
+2022-03-03 14:14:55,767 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:dab0bb28180b48cb025216f5dac46055 with status UP (replication=true)
+2022-03-03 14:14:56,264 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 14:14:56,793 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 14:15:29,109 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:16:07,975 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=false)
+2022-03-03 14:16:08,497 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=true)
+2022-03-03 14:16:29,109 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:17:29,109 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:18:29,109 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:19:29,110 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:20:29,621 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 508ms
+2022-03-03 14:21:29,618 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:22:29,618 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:23:29,619 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 14:24:29,619 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:25:29,839 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 220ms
+2022-03-03 14:26:29,891 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 52ms
+2022-03-03 14:27:19,091 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-FRAUDES/api-fraudes:dab0bb28180b48cb025216f5dac46055 with status DOWN (replication=false)
+2022-03-03 14:27:20,153 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-FRAUDES/api-fraudes:dab0bb28180b48cb025216f5dac46055 with status DOWN (replication=true)
+2022-03-03 14:27:24,425 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-FRAUDES/api-fraudes:dab0bb28180b48cb025216f5dac46055 (replication=false)
+2022-03-03 14:27:25,012 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:dab0bb28180b48cb025216f5dac46055
+2022-03-03 14:27:25,013 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Cancel): API-FRAUDES - api-fraudes:dab0bb28180b48cb025216f5dac46055
+2022-03-03 14:27:25,016 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-1] The replication of task API-FRAUDES/api-fraudes:dab0bb28180b48cb025216f5dac46055:Cancel@localhost failed with response code 404
+2022-03-03 14:27:25,017 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-1] API-FRAUDES/api-fraudes:dab0bb28180b48cb025216f5dac46055:Cancel@localhost: missing entry.
+2022-03-03 14:27:29,968 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 76ms
+2022-03-03 14:27:55,002 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:49f71004f2bbadcee936c6a47c4a7f74 with status UP (replication=false)
+2022-03-03 14:27:55,567 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:49f71004f2bbadcee936c6a47c4a7f74 with status UP (replication=true)
+2022-03-03 14:28:30,060 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 92ms
+2022-03-03 14:29:27,934 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 6
+2022-03-03 14:29:30,113 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 52ms
+2022-03-03 14:29:31,293 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-FRAUDES/api-fraudes:49f71004f2bbadcee936c6a47c4a7f74 with status DOWN (replication=false)
+2022-03-03 14:29:32,227 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-FRAUDES/api-fraudes:49f71004f2bbadcee936c6a47c4a7f74 with status DOWN (replication=true)
+2022-03-03 14:29:37,927 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-FRAUDES/api-fraudes:49f71004f2bbadcee936c6a47c4a7f74 (replication=false)
+2022-03-03 14:29:38,438 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:49f71004f2bbadcee936c6a47c4a7f74
+2022-03-03 14:29:38,440 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Cancel): API-FRAUDES - api-fraudes:49f71004f2bbadcee936c6a47c4a7f74
+2022-03-03 14:29:38,442 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-14] The replication of task API-FRAUDES/api-fraudes:49f71004f2bbadcee936c6a47c4a7f74:Cancel@localhost failed with response code 404
+2022-03-03 14:29:38,443 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-14] API-FRAUDES/api-fraudes:49f71004f2bbadcee936c6a47c4a7f74:Cancel@localhost: missing entry.
+2022-03-03 14:29:58,167 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:cc69e76c97617010ff5f24f783855f06 with status UP (replication=false)
+2022-03-03 14:29:58,500 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:cc69e76c97617010ff5f24f783855f06 with status UP (replication=true)
+2022-03-03 14:29:58,902 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:cc69e76c97617010ff5f24f783855f06 with status DOWN (replication=false)
+2022-03-03 14:29:59,449 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-FRAUDES/api-fraudes:cc69e76c97617010ff5f24f783855f06 with status DOWN (replication=true)
+2022-03-03 14:30:03,461 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance API-FRAUDES/api-fraudes:cc69e76c97617010ff5f24f783855f06 (replication=false)
+2022-03-03 14:30:03,980 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:cc69e76c97617010ff5f24f783855f06
+2022-03-03 14:30:03,981 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-10] Not Found (Cancel): API-FRAUDES - api-fraudes:cc69e76c97617010ff5f24f783855f06
+2022-03-03 14:30:03,983 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-1] The replication of task API-FRAUDES/api-fraudes:cc69e76c97617010ff5f24f783855f06:Cancel@localhost failed with response code 404
+2022-03-03 14:30:03,983 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-1] API-FRAUDES/api-fraudes:cc69e76c97617010ff5f24f783855f06:Cancel@localhost: missing entry.
+2022-03-03 14:30:19,380 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-FRAUDES/api-fraudes:1178b1bac11f8b84d3288e523bdb87af with status UP (replication=false)
+2022-03-03 14:30:19,889 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-FRAUDES/api-fraudes:1178b1bac11f8b84d3288e523bdb87af with status UP (replication=true)
+2022-03-03 14:30:30,114 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:31:01,296 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:1178b1bac11f8b84d3288e523bdb87af with status DOWN (replication=false)
+2022-03-03 14:31:01,810 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:1178b1bac11f8b84d3288e523bdb87af with status DOWN (replication=true)
+2022-03-03 14:31:05,821 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-FRAUDES/api-fraudes:1178b1bac11f8b84d3288e523bdb87af (replication=false)
+2022-03-03 14:31:06,336 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:1178b1bac11f8b84d3288e523bdb87af
+2022-03-03 14:31:06,337 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-8] Not Found (Cancel): API-FRAUDES - api-fraudes:1178b1bac11f8b84d3288e523bdb87af
+2022-03-03 14:31:06,340 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-17] The replication of task API-FRAUDES/api-fraudes:1178b1bac11f8b84d3288e523bdb87af:Cancel@localhost failed with response code 404
+2022-03-03 14:31:06,341 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-17] API-FRAUDES/api-fraudes:1178b1bac11f8b84d3288e523bdb87af:Cancel@localhost: missing entry.
+2022-03-03 14:31:24,099 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:61a8b20c3317415b5d27bd020b67df58 with status UP (replication=false)
+2022-03-03 14:31:24,695 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:61a8b20c3317415b5d27bd020b67df58 with status UP (replication=true)
+2022-03-03 14:31:25,308 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:61a8b20c3317415b5d27bd020b67df58 with status DOWN (replication=false)
+2022-03-03 14:31:25,832 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-FRAUDES/api-fraudes:61a8b20c3317415b5d27bd020b67df58 with status DOWN (replication=true)
+2022-03-03 14:31:29,691 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-FRAUDES/api-fraudes:61a8b20c3317415b5d27bd020b67df58 (replication=false)
+2022-03-03 14:31:30,223 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:61a8b20c3317415b5d27bd020b67df58
+2022-03-03 14:31:30,228 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-FRAUDES - api-fraudes:61a8b20c3317415b5d27bd020b67df58
+2022-03-03 14:31:30,231 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-10] The replication of task API-FRAUDES/api-fraudes:61a8b20c3317415b5d27bd020b67df58:Cancel@localhost failed with response code 404
+2022-03-03 14:31:30,231 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-10] API-FRAUDES/api-fraudes:61a8b20c3317415b5d27bd020b67df58:Cancel@localhost: missing entry.
+2022-03-03 14:31:30,259 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 145ms
+2022-03-03 14:31:45,508 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-FRAUDES/api-fraudes:8315cf3599f077066a42a26ca4e1b36b with status UP (replication=false)
+2022-03-03 14:31:46,053 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-FRAUDES/api-fraudes:8315cf3599f077066a42a26ca4e1b36b with status UP (replication=true)
+2022-03-03 14:31:56,101 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=false)
+2022-03-03 14:31:56,610 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=true)
+2022-03-03 14:32:01,263 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 (replication=false)
+2022-03-03 14:32:01,789 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 14:32:01,790 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Cancel): API-GATEWAY-SERVER - DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 14:32:01,792 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-10] The replication of task API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost failed with response code 404
+2022-03-03 14:32:01,793 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-10] API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost: missing entry.
+2022-03-03 14:32:30,260 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:33:02,277 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=false)
+2022-03-03 14:33:03,216 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=true)
+2022-03-03 14:33:30,260 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:34:30,261 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 14:34:59,246 ERROR com.netflix.eureka.cluster.ReplicationTaskProcessor [TaskBatchingWorker-target_localhost-3] It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:117)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:190)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+2022-03-03 14:35:30,262 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:36:28,517 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:8315cf3599f077066a42a26ca4e1b36b with status DOWN (replication=false)
+2022-03-03 14:36:28,999 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-FRAUDES/api-fraudes:8315cf3599f077066a42a26ca4e1b36b with status DOWN (replication=true)
+2022-03-03 14:36:30,262 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:36:32,507 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-FRAUDES/api-fraudes:8315cf3599f077066a42a26ca4e1b36b (replication=false)
+2022-03-03 14:36:32,533 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:8315cf3599f077066a42a26ca4e1b36b
+2022-03-03 14:36:32,534 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-FRAUDES - api-fraudes:8315cf3599f077066a42a26ca4e1b36b
+2022-03-03 14:36:32,535 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-7] The replication of task API-FRAUDES/api-fraudes:8315cf3599f077066a42a26ca4e1b36b:Cancel@localhost failed with response code 404
+2022-03-03 14:36:32,536 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-7] API-FRAUDES/api-fraudes:8315cf3599f077066a42a26ca4e1b36b:Cancel@localhost: missing entry.
+2022-03-03 14:36:40,555 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:47fa0da3045573a3db777214a86e5b84 with status UP (replication=false)
+2022-03-03 14:36:41,068 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-FRAUDES/api-fraudes:47fa0da3045573a3db777214a86e5b84 with status UP (replication=true)
+2022-03-03 14:37:13,709 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=false)
+2022-03-03 14:37:14,223 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=true)
+2022-03-03 14:37:19,511 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 (replication=false)
+2022-03-03 14:37:20,023 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 14:37:20,025 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-GATEWAY-SERVER - DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 14:37:20,028 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-0] The replication of task API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost failed with response code 404
+2022-03-03 14:37:20,028 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-0] API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost: missing entry.
+2022-03-03 14:37:30,262 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:38:04,517 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=false)
+2022-03-03 14:38:05,023 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=true)
+2022-03-03 14:38:30,262 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:39:30,263 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-03-03 14:40:30,267 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-03-03 14:41:30,268 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:41:46,122 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:47fa0da3045573a3db777214a86e5b84 with status DOWN (replication=false)
+2022-03-03 14:41:46,633 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:47fa0da3045573a3db777214a86e5b84 with status DOWN (replication=true)
+2022-03-03 14:41:49,943 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance API-FRAUDES/api-fraudes:47fa0da3045573a3db777214a86e5b84 (replication=false)
+2022-03-03 14:41:50,912 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:47fa0da3045573a3db777214a86e5b84
+2022-03-03 14:41:50,913 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-5] Not Found (Cancel): API-FRAUDES - api-fraudes:47fa0da3045573a3db777214a86e5b84
+2022-03-03 14:41:50,916 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-8] The replication of task API-FRAUDES/api-fraudes:47fa0da3045573a3db777214a86e5b84:Cancel@localhost failed with response code 404
+2022-03-03 14:41:50,916 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-8] API-FRAUDES/api-fraudes:47fa0da3045573a3db777214a86e5b84:Cancel@localhost: missing entry.
+2022-03-03 14:42:00,696 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-FRAUDES/api-fraudes:8cf3e0e72fffe01b838172b7b4251937 with status UP (replication=false)
+2022-03-03 14:42:01,205 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-FRAUDES/api-fraudes:8cf3e0e72fffe01b838172b7b4251937 with status UP (replication=true)
+2022-03-03 14:42:23,755 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-FRAUDES/api-fraudes:8cf3e0e72fffe01b838172b7b4251937 with status DOWN (replication=false)
+2022-03-03 14:42:24,944 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:8cf3e0e72fffe01b838172b7b4251937 with status DOWN (replication=true)
+2022-03-03 14:42:28,978 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-FRAUDES/api-fraudes:8cf3e0e72fffe01b838172b7b4251937 (replication=false)
+2022-03-03 14:42:29,455 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:8cf3e0e72fffe01b838172b7b4251937
+2022-03-03 14:42:29,456 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-FRAUDES - api-fraudes:8cf3e0e72fffe01b838172b7b4251937
+2022-03-03 14:42:29,459 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-3] The replication of task API-FRAUDES/api-fraudes:8cf3e0e72fffe01b838172b7b4251937:Cancel@localhost failed with response code 404
+2022-03-03 14:42:29,459 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-3] API-FRAUDES/api-fraudes:8cf3e0e72fffe01b838172b7b4251937:Cancel@localhost: missing entry.
+2022-03-03 14:42:30,268 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:42:39,561 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-FRAUDES/api-fraudes:6f87941983b5ed46c2aef792310d7e0a with status UP (replication=false)
+2022-03-03 14:42:39,924 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-FRAUDES/api-fraudes:6f87941983b5ed46c2aef792310d7e0a with status DOWN (replication=false)
+2022-03-03 14:42:40,433 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-FRAUDES/api-fraudes:6f87941983b5ed46c2aef792310d7e0a with status DOWN (replication=true)
+2022-03-03 14:42:44,266 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-FRAUDES/api-fraudes:6f87941983b5ed46c2aef792310d7e0a (replication=false)
+2022-03-03 14:42:44,811 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-FRAUDES/api-fraudes:6f87941983b5ed46c2aef792310d7e0a
+2022-03-03 14:42:44,812 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-FRAUDES - api-fraudes:6f87941983b5ed46c2aef792310d7e0a
+2022-03-03 14:42:44,821 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-3] The replication of task API-FRAUDES/api-fraudes:6f87941983b5ed46c2aef792310d7e0a:Cancel@localhost failed with response code 404
+2022-03-03 14:42:44,821 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-3] API-FRAUDES/api-fraudes:6f87941983b5ed46c2aef792310d7e0a:Cancel@localhost: missing entry.
+2022-03-03 14:42:54,105 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-FRAUDES/api-fraudes:0d9d26b3d587ee3b7b0c44dca8784a00 with status UP (replication=false)
+2022-03-03 14:42:54,713 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-FRAUDES/api-fraudes:0d9d26b3d587ee3b7b0c44dca8784a00 with status UP (replication=true)
+2022-03-03 14:43:25,938 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=false)
+2022-03-03 14:43:26,877 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 14:43:30,268 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:43:30,982 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 (replication=false)
+2022-03-03 14:43:31,877 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] DS: Registry: cancel failed because Lease is not registered for: API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 14:43:31,878 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-10] Not Found (Cancel): API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 14:43:31,880 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-3] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost failed with response code 404
+2022-03-03 14:43:31,880 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-3] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost: missing entry.
+2022-03-03 14:43:45,127 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 14:43:45,641 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 14:43:50,801 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=false)
+2022-03-03 14:43:51,309 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 14:43:54,900 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 (replication=false)
+2022-03-03 14:43:55,405 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 14:43:55,408 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 14:43:55,410 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-19] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost failed with response code 404
+2022-03-03 14:43:55,411 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-19] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost: missing entry.
+2022-03-03 14:44:08,146 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 14:44:08,665 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 14:44:17,163 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=false)
+2022-03-03 14:44:17,742 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status DOWN (replication=true)
+2022-03-03 14:44:21,534 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 (replication=false)
+2022-03-03 14:44:22,044 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 14:44:22,045 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-DIRECCIONES - DESKTOP-E4B00NC:api-direcciones:8002
+2022-03-03 14:44:22,048 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-19] The replication of task API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost failed with response code 404
+2022-03-03 14:44:22,048 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-19] API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002:Cancel@localhost: missing entry.
+2022-03-03 14:44:27,943 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 5
+2022-03-03 14:44:28,787 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=false)
+2022-03-03 14:44:29,311 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=true)
+2022-03-03 14:44:30,270 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-03-03 14:44:34,750 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Cancelled instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 (replication=false)
+2022-03-03 14:44:35,256 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: lease doesn't exist, registering resource: API-GATEWAY-SERVER - DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 14:44:35,257 WARN com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Renew): API-GATEWAY-SERVER - DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 14:44:35,260 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 14:44:35,263 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Cancel): API-GATEWAY-SERVER - DESKTOP-E4B00NC:api-gateway-server:8090
+2022-03-03 14:44:35,266 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-18] The replication of task API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Heartbeat@localhost failed with response code 404
+2022-03-03 14:44:35,266 WARN com.netflix.eureka.cluster.PeerEurekaNode$3 [TaskBatchingWorker-target_localhost-18] API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Heartbeat@localhost: missing entry.
+2022-03-03 14:44:35,266 WARN com.netflix.eureka.cluster.PeerEurekaNode$3 [TaskBatchingWorker-target_localhost-18] API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Heartbeat@localhost: cannot find instance id DESKTOP-E4B00NC:api-gateway-server:8090 and hence replicating the instance with status DOWN
+2022-03-03 14:44:35,267 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-18] The replication of task API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost failed with response code 404
+2022-03-03 14:44:35,268 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-18] API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090:Cancel@localhost: missing entry.
+2022-03-03 14:44:35,780 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status DOWN (replication=true)
+2022-03-03 14:44:35,931 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=false)
+2022-03-03 14:44:36,435 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 with status UP (replication=true)
+2022-03-03 14:45:30,329 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 58ms
+2022-03-03 14:45:34,807 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=false)
+2022-03-03 14:45:35,329 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-GATEWAY-SERVER/DESKTOP-E4B00NC:api-gateway-server:8090 with status UP (replication=true)
+2022-03-03 14:46:30,329 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-03-03 14:47:30,330 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms

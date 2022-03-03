@@ -17,6 +17,7 @@ import com.ibm.academia.restapi.direcciones.excepciones.BadRequestException;
 import com.ibm.academia.restapi.direcciones.modelo.dto.FraudeDTO;
 import com.ibm.academia.restapi.direcciones.servicios.IFraudeService;
 
+import brave.Tracer;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 
 @RestController
@@ -27,6 +28,9 @@ public class FraudeController {
 
 	@Autowired
 	private CircuitBreakerFactory circuitBreaker;
+	
+	@Autowired
+	private Tracer tracer;
 
 	@Autowired
 	@Qualifier("fraudeServiceFeign")
@@ -45,9 +49,10 @@ public class FraudeController {
 	@GetMapping("/consultar-ip")
 	public FraudeDTO consultarIp(@RequestParam String ip) {
 
-		if (!fraudeService.validarIp(ip))
+		if (!fraudeService.validarIp(ip)) {
+			tracer.currentSpan().tag("error.mensaje", "Formato de la dirección ip invalido");
 			throw new BadRequestException("Formato invalido de la Ip");
-
+		}
 		return fraudeService.consultarIp(ip);
 	}
 
@@ -65,9 +70,10 @@ public class FraudeController {
 	@GetMapping("/banear-ip")
 	public Fraude banIp(@RequestParam String ip, @RequestParam String usuario) {
 
-		if (!fraudeService.validarIp(ip))
+		if (!fraudeService.validarIp(ip)) {
+			tracer.currentSpan().tag("error.mensaje", "Formato de la dirección ip invalido");
 			throw new BadRequestException("Formato invalido de la Ip");
-
+		}
 		return circuitBreaker.create("direcciones").run(() -> fraudeService.banIp(ip, usuario),
 				e -> metodoAlternativoBanearIp(ip, e));
 	}

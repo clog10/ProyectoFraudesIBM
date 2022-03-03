@@ -20,6 +20,8 @@ import com.ibm.academia.restapi.fraudes.excepciones.NotFoundException;
 import com.ibm.academia.restapi.fraudes.modelo.dto.FraudeDTO;
 import com.ibm.academia.restapi.fraudes.servicios.FraudeDAO;
 
+import brave.Tracer;
+
 @RestController
 @RequestMapping("/fraude")
 public class FraudeController {
@@ -31,6 +33,9 @@ public class FraudeController {
 
 	@Autowired
 	private Environment environment;
+
+	@Autowired
+	private Tracer tracer;
 
 	/**
 	 * Endpoint para consultar la información de una Ip
@@ -44,13 +49,17 @@ public class FraudeController {
 	@GetMapping("/consultar-ip")
 	public ResponseEntity<?> informacionIp(@RequestParam String ip) {
 
-		if (!fraudeDao.validarIp(ip))
+		if (!fraudeDao.validarIp(ip)) {
+			tracer.currentSpan().tag("error.mensaje", "Formato de la dirección ip invalido");
 			throw new BadRequestException("Formato de la dirección ip invalido");
+		}
 
 		Optional<Fraude> oFraude = fraudeDao.findFraudeByIp(ip);
 
-		if (oFraude.isPresent())
+		if (oFraude.isPresent()) {
+			tracer.currentSpan().tag("error.mensaje", "La IP ha sido baneada anteriormente");
 			throw new BadRequestException("La IP ha sido baneada anteriormente");
+		}
 
 		FraudeDTO informacion = null;
 
@@ -80,13 +89,17 @@ public class FraudeController {
 	@PostMapping("/ban-ip")
 	public ResponseEntity<?> banIp(@RequestParam String ip, @RequestParam String usuario) {
 
-		if (!fraudeDao.validarIp(ip))
+		if (!fraudeDao.validarIp(ip)) {
+			tracer.currentSpan().tag("error.mensaje", "Formato de la dirección ip invalido");
 			throw new BadRequestException("Formato de la dirección ip invalido");
+		}
 
 		Optional<Fraude> oFraude = fraudeDao.findFraudeByIp(ip);
 
-		if (oFraude.isPresent())
+		if (oFraude.isPresent()) {
+			tracer.currentSpan().tag("error.mensaje", "Formato de la dirección ip invalido");
 			throw new BadRequestException("La IP ya ha sido baneada");
+		}
 
 		Fraude fraudeGuardado = fraudeDao.guardar(ip, usuario);
 		fraudeGuardado.setPuerto(Integer.parseInt(environment.getProperty("local.server.port")));
@@ -106,16 +119,21 @@ public class FraudeController {
 	 */
 	@GetMapping("/buscar")
 	public ResponseEntity<?> buscarPorIp(@RequestParam String ip) {
-		if (!fraudeDao.validarIp(ip))
+
+		if (!fraudeDao.validarIp(ip)) {
+			tracer.currentSpan().tag("error.mensaje", "Formato de la dirección ip invalido");
 			throw new BadRequestException("Formato de la dirección ip invalido");
+		}
 
 		Optional<Fraude> oFraude = fraudeDao.findFraudeByIp(ip);
 
-		if (!oFraude.isPresent())
+		if (!oFraude.isPresent()) {
+			tracer.currentSpan().tag("error.mensaje", "La ip no esta baneada");
 			throw new NotFoundException("La ip no esta baneada");
+		}
 
 		oFraude.get().setPuerto(Integer.parseInt(environment.getProperty("local.server.port")));
-		
+
 		return new ResponseEntity<Fraude>(oFraude.get(), HttpStatus.OK);
 	}
 

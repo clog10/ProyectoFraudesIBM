@@ -19,6 +19,8 @@ import com.ibm.academia.restapi.fraudes.modelo.dto.FraudeDTO;
 import com.ibm.academia.restapi.fraudes.modelo.mapper.FraudeMapper;
 import com.ibm.academia.restapi.fraudes.repositorios.FraudeRepository;
 
+import brave.Tracer;
+
 @Service
 public class FraudeDAOImpl implements FraudeDAO {
 

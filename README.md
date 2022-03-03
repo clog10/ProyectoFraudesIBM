@@ -45,6 +45,14 @@ Tener en cuenta que el punto 1 puede recibir fluctuaciones agresivas de tráfico
 
 #
 
+### Endpoints
+
+- Consultar informacion de la ip -> http://localhost:8090/api/gateway/api/v1/rest-direcciones/fraude/consultar-ip?ip=189.125.152.157
+
+- Banear ip -> http://localhost:8090/api/gateway/api/v1/rest-direcciones/fraude/banear-ip?ip=189.125.152.157&usuario=Clog10
+
+#
+
 ### Reference Documentation
 
 For further reference, please consider the following sections:

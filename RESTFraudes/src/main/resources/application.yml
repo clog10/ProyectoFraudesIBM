@@ -1,0 +1,19 @@
+# Fixer
+fixer:
+  baseUrl: http://data.fixer.io
+  key: 0c76ab008c95a708f5baa5492314a794
+
+
+# Ip Info
+ipInfo:
+  baseUrl: https://api.ip2country.info/
+
+# Country Info
+countryInfo:
+  baseUrl: https://api.countrylayer.com/v2/
+  key: 74092eaa02b9ea500432bb564f21ad90
+  
+# exchangeratesapi
+exchangeRatesApi:
+  baseUrl: http://api.exchangeratesapi.io/v1/
+  key: 89fdba1d823d316d1cf22543e031c812

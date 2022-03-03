@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="LOGS" value="./logs"/>
+	<statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+	
+ 	<include resource="/org/springframework/boot/logging/logback/base.xml"/>
+    <appender name="consola" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{dd-MMM-yyyy | HH:mm:ss} [%thread] %-5level %logger ----- %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGS}/test/fraudes-test-log.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOGS}/archivavos/test/fraudes-test-log-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>1000KB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="consola"/>
+        <appender-ref ref="RollingFile"/>
+    </root>
+
+	<logger name="org.springframework.test" level="ERROR"/>
+    <logger name="ch.qos.logback" level="ERROR"/>
+    <logger name="com.ibm.academia.restapi.ipfraude.servicios" level="DEBUG"/>
+    <logger name="com.ibm.academia.restapi.ipfraude.repositorios" level="DEBUG"/>
+</configuration>

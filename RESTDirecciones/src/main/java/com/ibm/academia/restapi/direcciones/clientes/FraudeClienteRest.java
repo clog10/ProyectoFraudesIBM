@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.ibm.academia.restapi.direcciones.modelo.Fraude;
+import com.ibm.academia.restapi.commons.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.direcciones.modelo.dto.FraudeDTO;
 
 @FeignClient(name = "api-fraudes")

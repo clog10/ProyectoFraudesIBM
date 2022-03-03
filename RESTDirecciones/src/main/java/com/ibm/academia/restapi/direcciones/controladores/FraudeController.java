@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ibm.academia.restapi.commons.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.direcciones.excepciones.BadRequestException;
-import com.ibm.academia.restapi.direcciones.modelo.Fraude;
 import com.ibm.academia.restapi.direcciones.modelo.dto.FraudeDTO;
 import com.ibm.academia.restapi.direcciones.servicios.IFraudeService;
 

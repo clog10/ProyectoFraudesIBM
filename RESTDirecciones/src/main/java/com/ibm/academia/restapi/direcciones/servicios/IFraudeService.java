@@ -1,6 +1,6 @@
 package com.ibm.academia.restapi.direcciones.servicios;
 
-import com.ibm.academia.restapi.direcciones.modelo.Fraude;
+import com.ibm.academia.restapi.commons.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.direcciones.modelo.dto.FraudeDTO;
 
 public interface IFraudeService {

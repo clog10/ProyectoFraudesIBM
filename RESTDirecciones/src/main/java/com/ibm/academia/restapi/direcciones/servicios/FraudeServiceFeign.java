@@ -3,8 +3,8 @@ package com.ibm.academia.restapi.direcciones.servicios;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.ibm.academia.restapi.commons.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.direcciones.clientes.FraudeClienteRest;
-import com.ibm.academia.restapi.direcciones.modelo.Fraude;
 import com.ibm.academia.restapi.direcciones.modelo.dto.FraudeDTO;
 
 @Service("fraudeServiceFeign")

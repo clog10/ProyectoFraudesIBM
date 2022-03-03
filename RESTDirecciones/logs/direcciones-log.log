@@ -2356,3 +2356,395 @@ Unconditional classes:
 2022-03-03 12:18:48,236 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Initializing Servlet 'dispatcherServlet'
 2022-03-03 12:18:48,239 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Completed initialization in 2 ms
 2022-03-03 12:19:07,957 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-3] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:21:39,782 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-79] Unregistering application API-DIRECCIONES with eureka with status DOWN
+2022-03-03 12:21:39,782 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-79] Saw local status change event StatusChangeEvent [timestamp=1646331699782, current=DOWN, previous=UP]
+2022-03-03 12:21:39,783 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002: registering service...
+2022-03-03 12:21:39,789 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 - registration status: 204
+2022-03-03 12:21:39,821 INFO com.netflix.discovery.DiscoveryClient [Thread-79] Shutting down DiscoveryClient ...
+2022-03-03 12:21:42,851 INFO com.netflix.discovery.DiscoveryClient [Thread-79] Unregistering ...
+2022-03-03 12:21:42,859 INFO com.netflix.discovery.DiscoveryClient [Thread-79] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 - deregister  status: 200
+2022-03-03 12:21:42,956 INFO com.netflix.discovery.DiscoveryClient [Thread-79] Completed shut down of DiscoveryClient
+2022-03-03 12:21:44,522 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestDireccionesApplication using Java 17.0.1 on DESKTOP-E4B00NC with PID 17136 (C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes started by carlo in C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones)
+2022-03-03 12:21:44,523 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 12:21:46,390 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=c9bf9003-8814-3ae0-9926-b618f4211c81
+2022-03-03 12:21:46,493 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Error loading class [com.ibm.academia.restapi.direcciones.servicios.FraudeServiceFeign] for bean with name 'fraudeServiceFeign' defined in file [C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes\com\ibm\academia\restapi\direcciones\servicios\FraudeServiceFeign.class]: problem with class file or dependent class; nested exception is java.lang.ClassFormatError: Duplicate method name "banIp" with signature "(Ljava.lang.String;Ljava.lang.String;)LFraude;" in class file com/ibm/academia/restapi/direcciones/servicios/FraudeServiceFeign
+2022-03-03 12:21:46,526 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-03 12:21:46,719 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Error loading class [com.ibm.academia.restapi.direcciones.servicios.FraudeServiceFeign] for bean with name 'fraudeServiceFeign' defined in file [C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes\com\ibm\academia\restapi\direcciones\servicios\FraudeServiceFeign.class]: problem with class file or dependent class; nested exception is java.lang.ClassFormatError: Duplicate method name "banIp" with signature "(Ljava.lang.String;Ljava.lang.String;)LFraude;" in class file com/ibm/academia/restapi/direcciones/servicios/FraudeServiceFeign
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.ibm.academia.restapi.direcciones.RestDireccionesApplication.main(RestDireccionesApplication.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Error loading class [com.ibm.academia.restapi.direcciones.servicios.FraudeServiceFeign] for bean with name 'fraudeServiceFeign' defined in file [C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes\com\ibm\academia\restapi\direcciones\servicios\FraudeServiceFeign.class]: problem with class file or dependent class; nested exception is java.lang.ClassFormatError: Duplicate method name "banIp" with signature "(Ljava.lang.String;Ljava.lang.String;)LFraude;" in class file com/ibm/academia/restapi/direcciones/servicios/FraudeServiceFeign
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:704)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:536)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:208)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	... 13 common frames omitted
+Caused by: java.lang.ClassFormatError: Duplicate method name "banIp" with signature "(Ljava.lang.String;Ljava.lang.String;)LFraude;" in class file com/ibm/academia/restapi/direcciones/servicios/FraudeServiceFeign
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.findClass(RestartClassLoader.java:160)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:142)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:469)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1534)
+	... 22 common frames omitted
+2022-03-03 12:22:02,271 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestDireccionesApplication using Java 17.0.1 on DESKTOP-E4B00NC with PID 17136 (C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes started by carlo in C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones)
+2022-03-03 12:22:02,271 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 12:22:03,269 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=c9bf9003-8814-3ae0-9926-b618f4211c81
+2022-03-03 12:22:03,686 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-03-03 12:22:03,687 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-03 12:22:03,688 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-03 12:22:03,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-03 12:22:03,755 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1477 ms
+2022-03-03 12:22:03,836 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fraudeController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@680692ac]
+2022-03-03 12:22:03,837 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-03-03 12:22:03,853 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-03 12:22:03,877 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fraudeController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@680692ac]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.ibm.academia.restapi.direcciones.RestDireccionesApplication.main(RestDireccionesApplication.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@680692ac]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Fraude
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Fraude
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 29 common frames omitted
+2022-03-03 12:22:19,256 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestDireccionesApplication using Java 17.0.1 on DESKTOP-E4B00NC with PID 17136 (C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes started by carlo in C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones)
+2022-03-03 12:22:19,256 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 12:22:20,410 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=c9bf9003-8814-3ae0-9926-b618f4211c81
+2022-03-03 12:22:20,920 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-03-03 12:22:20,922 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-03 12:22:20,923 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-03 12:22:21,016 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-03 12:22:21,017 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1750 ms
+2022-03-03 12:22:21,154 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fraudeController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10da5403]
+2022-03-03 12:22:21,155 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-03-03 12:22:21,178 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-03 12:22:21,221 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fraudeController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10da5403]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.ibm.academia.restapi.direcciones.RestDireccionesApplication.main(RestDireccionesApplication.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10da5403]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Fraude
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Fraude
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 29 common frames omitted
+2022-03-03 12:22:29,538 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestDireccionesApplication using Java 17.0.1 on DESKTOP-E4B00NC with PID 17136 (C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes started by carlo in C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones)
+2022-03-03 12:22:29,538 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 12:22:30,838 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=c9bf9003-8814-3ae0-9926-b618f4211c81
+2022-03-03 12:22:31,263 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-03-03 12:22:31,264 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-03 12:22:31,264 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-03 12:22:31,319 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-03 12:22:31,319 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1770 ms
+2022-03-03 12:22:31,396 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fraudeController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1a1cf937]
+2022-03-03 12:22:31,396 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-03-03 12:22:31,407 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-03 12:22:31,419 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fraudeController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1a1cf937]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.ibm.academia.restapi.direcciones.RestDireccionesApplication.main(RestDireccionesApplication.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1a1cf937]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Fraude
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Fraude
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 29 common frames omitted
+2022-03-03 12:22:43,569 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestDireccionesApplication using Java 17.0.1 on DESKTOP-E4B00NC with PID 17136 (C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes started by carlo in C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones)
+2022-03-03 12:22:43,569 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 12:22:44,549 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=c9bf9003-8814-3ae0-9926-b618f4211c81
+2022-03-03 12:22:44,958 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-03-03 12:22:44,960 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-03 12:22:44,960 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-03 12:22:45,022 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-03 12:22:45,023 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1442 ms
+2022-03-03 12:22:45,131 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fraudeController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@366f5fef]
+2022-03-03 12:22:45,137 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-03-03 12:22:45,154 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-03 12:22:45,176 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fraudeController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@366f5fef]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.ibm.academia.restapi.direcciones.RestDireccionesApplication.main(RestDireccionesApplication.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ibm.academia.restapi.direcciones.controladores.FraudeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@366f5fef]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/ibm/academia/restapi/commons/modelo/entidades/Fraude
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.ibm.academia.restapi.commons.modelo.entidades.Fraude
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 29 common frames omitted
+2022-03-03 12:23:13,740 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestDireccionesApplication using Java 17.0.1 on DESKTOP-E4B00NC with PID 6800 (C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes started by carlo in C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones)
+2022-03-03 12:23:13,754 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 12:23:13,765 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
+2022-03-03 12:23:14,054 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-03 12:23:14,055 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-03 12:23:18,380 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=cd1afcf6-a392-3d0d-9fe7-d4bfcd1f1820
+2022-03-03 12:23:26,254 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-03-03 12:23:26,700 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8002"]
+2022-03-03 12:23:26,702 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-03 12:23:26,704 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-03 12:23:28,672 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-03 12:23:28,674 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 14615 ms
+2022-03-03 12:23:30,832 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 12:23:31,033 INFO org.springframework.cloud.openfeign.FeignClientFactoryBean [restartedMain] For 'api-fraudes' URL not provided. Will try picking an instance via load-balancing.
+2022-03-03 12:23:34,806 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 12:23:35,520 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 12:23:35,850 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 12:23:36,020 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 12:23:36,053 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 12:23:36,148 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 12:23:36,152 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 12:23:36,153 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 12:23:36,154 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 12:23:36,154 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 12:23:36,155 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 12:23:36,156 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 12:23:37,300 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 12:23:37,314 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 12:23:37,332 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 12:23:37,364 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646331817362 with initial instances count: 2
+2022-03-03 12:23:37,392 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-DIRECCIONES with eureka with status UP
+2022-03-03 12:23:37,395 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646331817395, current=UP, previous=STARTING]
+2022-03-03 12:23:37,413 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8002"]
+2022-03-03 12:23:37,419 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002: registering service...
+2022-03-03 12:23:37,651 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8002 (http) with context path '/api/v1/rest-direcciones'
+2022-03-03 12:23:37,658 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8002
+2022-03-03 12:23:37,696 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 - registration status: 204
+2022-03-03 12:23:38,008 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestDireccionesApplication in 26.08 seconds (JVM running for 30.379)
+2022-03-03 12:24:42,426 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8002-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-03 12:24:42,427 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-03-03 12:24:42,430 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Completed initialization in 2 ms
+2022-03-03 12:24:43,338 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-1] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:24:47,293 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-2] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:24:48,577 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-3] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:24:49,629 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-4] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:24:50,623 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-5] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:24:51,610 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-6] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:24:52,718 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-7] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:24:54,076 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-8] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:24:56,390 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-9] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.157] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 12:26:07,612 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-1] Unregistering application API-DIRECCIONES with eureka with status DOWN
+2022-03-03 12:26:07,613 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-1] Saw local status change event StatusChangeEvent [timestamp=1646331967613, current=DOWN, previous=UP]
+2022-03-03 12:26:07,614 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002: registering service...
+2022-03-03 12:26:07,620 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 - registration status: 204
+2022-03-03 12:26:08,019 INFO com.netflix.discovery.DiscoveryClient [Thread-1] Shutting down DiscoveryClient ...
+2022-03-03 12:26:11,040 INFO com.netflix.discovery.DiscoveryClient [Thread-1] Unregistering ...
+2022-03-03 12:26:11,049 INFO com.netflix.discovery.DiscoveryClient [Thread-1] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 - deregister  status: 200
+2022-03-03 12:26:11,155 INFO com.netflix.discovery.DiscoveryClient [Thread-1] Completed shut down of DiscoveryClient
+2022-03-03 12:26:12,304 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestDireccionesApplication using Java 17.0.1 on DESKTOP-E4B00NC with PID 6800 (C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones\target\classes started by carlo in C:\Users\carlo\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\RESTDirecciones)
+2022-03-03 12:26:12,305 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-03 12:26:13,743 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=cd1afcf6-a392-3d0d-9fe7-d4bfcd1f1820
+2022-03-03 12:26:14,318 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-03-03 12:26:14,321 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8002"]
+2022-03-03 12:26:14,322 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-03 12:26:14,322 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-03 12:26:14,397 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-03 12:26:14,398 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2084 ms
+2022-03-03 12:26:15,513 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-03-03 12:26:15,576 INFO org.springframework.cloud.openfeign.FeignClientFactoryBean [restartedMain] For 'api-fraudes' URL not provided. Will try picking an instance via load-balancing.
+2022-03-03 12:26:18,201 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-03-03 12:26:18,745 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-03 12:26:18,878 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-03-03 12:26:18,922 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-03-03 12:26:18,923 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-03-03 12:26:18,965 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-03-03 12:26:18,966 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-03-03 12:26:18,967 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-03-03 12:26:18,967 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-03-03 12:26:18,969 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-03-03 12:26:18,970 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-03-03 12:26:18,970 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-03-03 12:26:19,084 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-03-03 12:26:19,098 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-03-03 12:26:19,110 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-03-03 12:26:19,127 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1646331979127 with initial instances count: 2
+2022-03-03 12:26:19,156 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-DIRECCIONES with eureka with status UP
+2022-03-03 12:26:19,158 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1646331979158, current=UP, previous=STARTING]
+2022-03-03 12:26:19,158 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002: registering service...
+2022-03-03 12:26:19,160 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8002"]
+2022-03-03 12:26:19,168 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8002 (http) with context path '/api/v1/rest-direcciones'
+2022-03-03 12:26:19,170 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8002
+2022-03-03 12:26:19,205 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-DIRECCIONES/DESKTOP-E4B00NC:api-direcciones:8002 - registration status: 204
+2022-03-03 12:26:20,168 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestDireccionesApplication in 8.794 seconds (JVM running for 192.538)
+2022-03-03 12:26:20,177 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged

@@ -3604,3 +3604,8 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2022-03-03 14:45:54,813 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Completed initialization in 6 ms
 2022-03-03 14:46:10,656 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-3] Formato invalido de la Ip
 2022-03-03 14:46:57,547 INFO com.ibm.academia.restapi.direcciones.controladores.FraudeController [http-nio-8002-exec-4] [400] during [GET] to [http://api-fraudes/api/v1/rest-fraudes/fraude/consultar-ip?ip=189.125.152.158] [FraudeClienteRest#consultarIp(String)]: [{"error":"La IP ha sido baneada anteriormente"}]
+2022-03-03 14:49:35,694 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 14:54:35,746 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 14:59:35,750 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 15:04:35,762 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 15:09:35,776 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

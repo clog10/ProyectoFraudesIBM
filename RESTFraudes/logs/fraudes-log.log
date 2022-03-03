@@ -16636,3 +16636,19 @@ Database is already closed (to disable automatic closing at VM shutdown, add ";D
 2022-03-03 14:45:54,914 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-auto-10-exec-1] Initializing Servlet 'dispatcherServlet'
 2022-03-03 14:45:54,920 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-auto-10-exec-1] Completed initialization in 5 ms
 2022-03-03 14:46:57,540 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-auto-10-exec-3] Resolved [com.ibm.academia.restapi.fraudes.excepciones.BadRequestException: La IP ha sido baneada anteriormente]
+2022-03-03 14:47:53,856 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 14:52:53,859 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 14:57:53,864 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 15:02:53,879 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 15:07:53,882 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 15:12:53,896 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-03-03 15:13:35,536 WARN com.netflix.discovery.TimedSupervisorTask [DiscoveryClient-0] task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

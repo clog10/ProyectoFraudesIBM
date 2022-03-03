@@ -60,6 +60,11 @@
 		    <groupId>com.google.code.gson</groupId>
 		    <artifactId>gson</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.ibm.academia.restapi.commons</groupId>
+			<artifactId>RESTCommons</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

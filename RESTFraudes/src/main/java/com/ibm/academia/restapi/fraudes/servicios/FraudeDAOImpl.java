@@ -13,9 +13,9 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.ibm.academia.restapi.commons.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.fraudes.modelo.InformacionIp;
 import com.ibm.academia.restapi.fraudes.modelo.dto.FraudeDTO;
-import com.ibm.academia.restapi.fraudes.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.fraudes.modelo.mapper.FraudeMapper;
 import com.ibm.academia.restapi.fraudes.repositorios.FraudeRepository;
 

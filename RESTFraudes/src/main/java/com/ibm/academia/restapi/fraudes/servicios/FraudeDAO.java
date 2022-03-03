@@ -2,8 +2,8 @@ package com.ibm.academia.restapi.fraudes.servicios;
 
 import java.util.Optional;
 
+import com.ibm.academia.restapi.commons.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.fraudes.modelo.dto.FraudeDTO;
-import com.ibm.academia.restapi.fraudes.modelo.entidades.Fraude;
 
 public interface FraudeDAO {
 	public Optional<Fraude> buscarPorId(Long id);

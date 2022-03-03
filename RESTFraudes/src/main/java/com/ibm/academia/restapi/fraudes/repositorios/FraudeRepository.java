@@ -5,7 +5,8 @@ import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ibm.academia.restapi.fraudes.modelo.entidades.Fraude;
+import com.ibm.academia.restapi.commons.modelo.entidades.Fraude;
+
 
 @Repository
 public interface FraudeRepository extends CrudRepository<Fraude, Long>{

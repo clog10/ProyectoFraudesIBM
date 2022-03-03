@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ibm.academia.restapi.commons.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.fraudes.excepciones.BadRequestException;
 import com.ibm.academia.restapi.fraudes.excepciones.NotFoundException;
 import com.ibm.academia.restapi.fraudes.modelo.dto.FraudeDTO;
-import com.ibm.academia.restapi.fraudes.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.fraudes.servicios.FraudeDAO;
 
 @RestController
@@ -114,6 +114,8 @@ public class FraudeController {
 		if (!oFraude.isPresent())
 			throw new NotFoundException("La ip no esta baneada");
 
+		oFraude.get().setPuerto(Integer.parseInt(environment.getProperty("local.server.port")));
+		
 		return new ResponseEntity<Fraude>(oFraude.get(), HttpStatus.OK);
 	}
 

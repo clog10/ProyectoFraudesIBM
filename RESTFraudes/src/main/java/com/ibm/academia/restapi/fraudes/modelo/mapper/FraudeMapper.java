@@ -1,8 +1,8 @@
 package com.ibm.academia.restapi.fraudes.modelo.mapper;
 
+import com.ibm.academia.restapi.commons.modelo.entidades.Fraude;
 import com.ibm.academia.restapi.fraudes.modelo.InformacionIp;
 import com.ibm.academia.restapi.fraudes.modelo.dto.FraudeDTO;
-import com.ibm.academia.restapi.fraudes.modelo.entidades.Fraude;
 
 public class FraudeMapper {
 	
